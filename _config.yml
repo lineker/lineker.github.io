@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi, I’m a professional UI/UX designrer and web developer. 
   I love being minimal and creative.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Tom Warlker"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
@@ -38,6 +38,7 @@ theme:
 
 # Build settings
 markdown: kramdown
+encoding: utf-8
 
 # Permalinks
 permalink:        pretty
@@ -59,5 +60,3 @@ exclude:
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
-
-encoding: utf-8
