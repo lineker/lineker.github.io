@@ -6,19 +6,15 @@ banner_image: sample-banner-image-2.jpg
 banner_image_alt: About me
 ---
 
-Hi, I am Tom Warlker. I am a professional UI/UX designrer and web developer. I love being minimal and creative.
+Hi, I am Lineker Tomazeli. I am software engineer graduated from McGill University.  I love to study technology and see how it changes people&#8217;s lives.
 
-I prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+I don't believe that exist "the best" programming language, but just the right language for the job.
 
 ### Contact me
 
-Say `Hello` at gayanvirajith@gmail.com or find
+Say `Hello` at ltomazeli [at] gmail [dot] com or find
 me on
 
 ---
 
 {% include social.html %}
-
-[pw]: http://processwire.com
-[jekyll]: http://jekyllrb.com

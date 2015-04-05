@@ -1,27 +1,26 @@
 # Site settings
-title: Your awesome title
-tagline: And Tagline
-email: gayanvirajith@gmail.com
+title: Tomazeli.net
+tagline: Living in Tech World
+email: lineket@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designrer and web developer.
-  I love being minimal and creative.
+  Hi, I’m a software engineer passionated about technology.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://lineker.github.io" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000" #"http://lineker.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
-author: "Tom Warlker"
+author: "Lineker Tomazeli"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
+  highlight_color: "#ff9900" #205081" # "#272935"
   # Social media links, leave blank to ignore
   social:
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +gayanvirajith
+    github: lineker
+    twitter: tomazeli
+    facebook:
+    gplus:
     # dribble: gayanvirajith
-    pinterest: gayanvirajith
+    pinterest:
 
   # Enable share buttons on post footer
   show_share_buttons: true
@@ -30,10 +29,10 @@ theme:
   show_author_info: true
 
   # Disqus comments manager - shortname
-  # disqus_shortname: gaya-webcreate
+  disqus_shortname: tomazeli
 
   # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key:
+  google_analytics_key: UA-25373382-2
   google_webmaster_key:
 
 # Build settings
