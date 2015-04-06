@@ -2,7 +2,7 @@
 title: Implementing a LinkedList
 author: Lineker Tomazeli
 layout: post
-permalink: /?p=344
+permalink: implementing-a-linkedlist
 categories:
   - CS101
 tags:
@@ -17,7 +17,7 @@ There are 3 different types of linked list:
   2. Double Linked List: Each node points to the next node and the previous node.
   3. Circular Linked List: Each node points to the next node but the last node points to the first node.<figure style="width: 384px;" class="wp-caption alignnone">
 
-<img class=" " alt="Single Linked list where the data are integers." src="http://upload.wikimedia.org/wikipedia/commons/b/bf/Linked_list_data_format.jpg" width="384" height="288" /><figcaption class="wp-caption-text">Single Linked list where the data are integers.</figcaption></figure> 
+<img class=" " alt="Single Linked list where the data are integers." src="http://upload.wikimedia.org/wikipedia/commons/b/bf/Linked_list_data_format.jpg" width="384" height="288" /><figcaption class="wp-caption-text">Single Linked list where the data are integers.</figcaption></figure>
 
 This data structure has a few standard methods that we have learn. These methods are provided so we can manipulate the data. Below you can study my own implementation of a linkedlist using <a title="Generics" href="http://docs.oracle.com/javase/tutorial/java/generics/" target="_blank">Generics</a>.
 
