@@ -106,7 +106,7 @@ public class LinkedList implements Iterable {
     return null;
   }
 }
-{endhighlight}
+{% endhighlight %}
 
 &nbsp;  
 Full code: <a href="https://github.com/lineker/BackToBasics" title="https://github.com/lineker/BackToBasics" target="_blank">https://github.com/lineker/BackToBasics</a>

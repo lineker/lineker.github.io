@@ -54,4 +54,4 @@ public class Stack<T> extends LinkedList<T>{
 
 Full Code: <a title="https://github.com/lineker/BackToBasics" href="https://github.com/lineker/BackToBasics" target="_blank">https://github.com/lineker/BackToBasics</a>
 
- [1]: http://tomazeli.net/implementing-a-linkedlist/ "Implementing a LinkedList"
+ [1]: {% post_url 2014-01-22-implementing-a-linkedlist %}

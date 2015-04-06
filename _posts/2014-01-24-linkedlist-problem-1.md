@@ -52,4 +52,4 @@ public T insertAfter(T tData, T nData) {
 
 Full source: <a title="https://github.com/lineker/BackToBasics" href="https://github.com/lineker/BackToBasics" target="_blank">https://github.com/lineker/BackToBasics</a>
 
- [1]: http://blog.tomazeli.net/2014/01/implementing-a-linkedlist/ "Implementing a LinkedList"
+ [1]: {% post_url 2014-01-22-implementing-a-linkedlist %}
