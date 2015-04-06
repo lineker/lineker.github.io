@@ -5,6 +5,7 @@ layout: post
 permalink: list-flattening-and-unflattening
 categories:
   - CS101
+comments: true
 ---
 FLATTENING LIST PROBLEM: Start with a standard doubly linked list. Now imagine that in addition  
 to the next and previous pointers, each element has a child pointer, which  

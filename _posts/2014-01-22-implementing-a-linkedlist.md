@@ -3,6 +3,7 @@ title: Implementing a LinkedList
 author: Lineker Tomazeli
 layout: post
 permalink: implementing-a-linkedlist
+comments: true
 categories:
   - CS101
 tags:

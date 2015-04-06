@@ -3,6 +3,7 @@ title: Implementing a Stack
 author: Lineker Tomazeli
 layout: post
 permalink: implementing-a-stack
+comments: true
 categories:
   - CS101
 tags:

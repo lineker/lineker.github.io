@@ -5,6 +5,7 @@ layout: post
 permalink: linkedlist-problem-1
 categories:
   - CS101
+comments: true
 ---
 **PROBLEM:** head and tail are global references to the first and last element, respectively,&nbsp;of a singly linked list of integers. Implement &nbsp;functions for the following&nbsp;prototypes:
 
