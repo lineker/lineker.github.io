@@ -27,8 +27,8 @@ with the following definition:
 } Node;</pre>
 
 SOLUTION:
-
-<pre class="brush: cpp; title: ; notranslate" title="">bool listFlattening(Node *head, Node **tail) {
+{% highlight c %}
+bool listFlattening(Node *head, Node **tail) {
   if(head == NULL) return true;
   Node *temp = head;
   while(temp != NULL) {
@@ -41,7 +41,7 @@ SOLUTION:
     temp = temp-&gt;next;
   }
 }
-</pre>
+{% endhighlight %}
 
 *I haven&#8217;t run this solution to make sure it works. But the idea should be good.
 
@@ -49,8 +49,8 @@ UNFLATTENING PROBLEM: Unflatten the list created by the previous problem and res
 data structure to its original condition.
 
 SOLUTION:
-
-<pre class="brush: cpp; title: ; notranslate" title="">void listUnflatten(Node *head, Node **tail) {
+{% highlight c %}
+void listUnflatten(Node *head, Node **tail) {
   Node *temp = head;
   while(temp != NULL) {
     if(temp-&gt;child &amp;&amp; temp-&gt;child-&gt;prev != NULL) {
@@ -62,4 +62,4 @@ SOLUTION:
     temp = temp.next;
     //TODO: update tail here.
 }
-</pre>
+{% endhighlight %}
