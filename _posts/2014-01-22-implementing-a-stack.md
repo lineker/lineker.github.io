@@ -23,7 +23,8 @@ The most basic stack interface declares the following method:
 
 Here is my implementation of a stack which extends [my linked list implementation][1]
 
-<pre class="brush: java; title: ; notranslate" title="">public class Stack&lt;T&gt; extends LinkedList&lt;T&gt;{
+{% highlight java %}
+public class Stack<T> extends LinkedList<T>{
 
 	/**
 	 * returns the top object in the stack
@@ -49,7 +50,7 @@ Here is my implementation of a stack which extends [my linked list implementatio
 		this.addToFront(tData);
 	}
 }
-</pre>
+{% endhighlight %}
 
 Full Code: <a title="https://github.com/lineker/BackToBasics" href="https://github.com/lineker/BackToBasics" target="_blank">https://github.com/lineker/BackToBasics</a>
 

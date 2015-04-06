@@ -24,7 +24,8 @@ This data structure has a few standard methods that we have learn. These methods
 
 First we declare the Node Class + setters and getters:
 
-<pre>public class Node {
+{% highlight java %}
+public class Node {
   private T data = null;
   private Node next = null;
 
@@ -37,11 +38,12 @@ First we declare the Node Class + setters and getters:
     this.next = tNext;
   }
 }
-</pre>
+{% endhighlight %}
 
 And here is the Linked List Implementation simplified, you can get the full code in the links below.:
 
-<pre>public class LinkedList implements Iterable {
+{% highlight java %}
+public class LinkedList implements Iterable {
 
   protected Node head = null;
   protected Node tail = null;
@@ -104,7 +106,7 @@ And here is the Linked List Implementation simplified, you can get the full code
     return null;
   }
 }
-</pre>
+{endhighlight}
 
 &nbsp;  
 Full code: <a href="https://github.com/lineker/BackToBasics" title="https://github.com/lineker/BackToBasics" target="_blank">https://github.com/lineker/BackToBasics</a>

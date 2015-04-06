@@ -17,7 +17,8 @@ Your functions must keep the head and tail pointers updated.
 The following answer is based on the [previous implemented LinkedList][1]  
 **ANSWER:**
 
-<pre class="brush: java; title: ; notranslate" title="">public void addToFront(T tData) {
+{% highlight java %}
+public void addToFront(T tData) {
 	if(head == null && tail == null) {
 		tail = head = new Node(tData);
 	} else {
@@ -47,7 +48,7 @@ public T insertAfter(T tData, T nData) {
 	}
 	return null;
 }
-</pre>
+{% endhighlight %}
 
 Full source: <a title="https://github.com/lineker/BackToBasics" href="https://github.com/lineker/BackToBasics" target="_blank">https://github.com/lineker/BackToBasics</a>
 

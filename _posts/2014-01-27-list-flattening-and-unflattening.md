@@ -19,12 +19,14 @@ Flatten the list so that all the nodes appear in a single-level, doubly linked l
 are given the head and tail of the first level of the list. Each node is a C struct  
 with the following definition:
 
-<pre class="brush: cpp; title: ; notranslate" title="">typedef struct Node {
+{% highlight c %}
+typedef struct Node {
    struct Node *next;
    struct Node *prev;
    struct Node *child;
    int value;
-} Node;</pre>
+} Node;
+{% endhighlight %}
 
 SOLUTION:
 {% highlight c %}
@@ -32,18 +34,18 @@ bool listFlattening(Node *head, Node **tail) {
   if(head == NULL) return true;
   Node *temp = head;
   while(temp != NULL) {
-    if(temp-&gt;child != NULL) {
-      (*tail)-&gt;next = temp.child;
-      temp-&gt;child-&gt;prev = tail;
-      *tail = temp-&gt;child;
-      while((*tail)-&gt;next != NULL) *tail = (*tail)-&gt;next;
+    if(temp->child != NULL) {
+      (*tail)->next = temp.child;
+      temp->child->prev = tail;
+      *tail = temp->child;
+      while((*tail)->next != NULL) *tail = (*tail)->next;
     }
-    temp = temp-&gt;next;
+    temp = temp->next;
   }
 }
 {% endhighlight %}
 
-*I haven&#8217;t run this solution to make sure it works. But the idea should be good.
+*I haven't run this solution to make sure it works. But the idea should be good.
 
 UNFLATTENING PROBLEM: Unflatten the list created by the previous problem and restore the  
 data structure to its original condition.
@@ -53,10 +55,10 @@ SOLUTION:
 void listUnflatten(Node *head, Node **tail) {
   Node *temp = head;
   while(temp != NULL) {
-    if(temp-&gt;child &amp;&amp; temp-&gt;child-&gt;prev != NULL) {
-       Node *child = temp-&gt;child;
-       child-&gt;prev-&gt;next = NULL;
-       child-&gt;prev = NULL;
+    if(temp->child &amp;&amp; temp->child->prev != NULL) {
+       Node *child = temp->child;
+       child->prev->next = NULL;
+       child->prev = NULL;
        listUnflatten(child, tail);
     }
     temp = temp.next;
